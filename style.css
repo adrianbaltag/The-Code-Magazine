@@ -81,6 +81,10 @@ aside {
 	border-bottom: 5px solid #1098ad;
 }
 
-/* body {
-	background-color: hsla(60, 12%, 89%, 0.63);
-} */
+li:first-child {
+	font-weight: bold;
+}
+
+li:last-child {
+	font-style: italic;
+}
