@@ -17,6 +17,7 @@
 				<a href="#">CSS Grid</a>
 				<!--placeholder # untill fill with a link-->
 			</nav>
+			<p>Test paragraph</p>
 		</header>
 
 		<article>
@@ -29,11 +30,11 @@
 					width="50"
 					height="50"
 				/>
+				<p id="author">
+					Posted by <strong>Laura Jones</strong> on Monday, June 21st
+					2027
+				</p>
 			</header>
-
-			<p>
-				Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
-			</p>
 
 			<img
 				src="img/post-img.jpg"
@@ -107,7 +108,7 @@
 
 		<aside>
 			<h4>Related posts</h4>
-			<ul>
+			<ul class="related">
 				<li>
 					<img
 						src="img/related-1.jpg"
@@ -116,7 +117,7 @@
 						height="75"
 					/><a href="#">How to learn Web Develoment</a>
 				</li>
-				<p>By Adrian Baltag</p>
+				<p class="related-author">By Adrian Baltag</p>
 
 				<li>
 					<img
@@ -125,7 +126,7 @@
 						width="75"
 						height="75"
 					/><a href="#">The Unknown Powers of CSS</a>
-					<p>By Adrian Baltag</p>
+					<p class="related-author">By Adrian Baltag</p>
 				</li>
 
 				<li>
@@ -135,12 +136,14 @@
 						width="75"
 						height="75"
 					/><a href="#">Why JavaScript is AWESOME</a>
-					<p>By Adrian Baltag</p>
+					<p class="related-author">By Adrian Baltag</p>
 				</li>
 			</ul>
 		</aside>
 		<!--secondary important part of website-->
 
-		<footer>Copyright &copy; 2027 by Code Magazine.</footer>
+		<footer>
+			<p id="copyright">Copyright &copy; 2027 by Code Magazine.</p>
+		</footer>
 	</body>
 </html>
